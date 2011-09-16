@@ -64,7 +64,7 @@ public final class OAuth {
     public static final String OAUTH_STATE = "state";
     public static final String OAUTH_GRANT_TYPE = "grant_type";
 
-    public static final String OAUTH_HEADER_NAME = "OAuth";
+    public static final String OAUTH_HEADER_NAME = "Bearer";
 
     //Authorization response params
     public static final String OAUTH_CODE = "code";
@@ -72,7 +72,7 @@ public final class OAuth {
     public static final String OAUTH_EXPIRES_IN = "expires_in";
     public static final String OAUTH_REFRESH_TOKEN = "refresh_token";
 
-    public static final String OAUTH_TOKEN = "oauth_token";
+    public static final String OAUTH_TOKEN = "access_token";
 
     public static final String OAUTH_TOKEN_DRAFT_0 = "access_token";
 
